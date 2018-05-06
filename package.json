@@ -32,7 +32,7 @@
     "ios": "react-native-scripts ios",
     "test": "jest",
     "lint": "eslint src",
-    "flow": "flow",
+    "flow": "flow check --all",
     "flow-stop": "flow stop",
     "pretty": "prettier --semi false --print-width 100 --single-quote --trailing-comma all --write \"src/**/*.js\"",
     "precommit": "lint-staged && yarn test"
