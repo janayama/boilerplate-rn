@@ -2,10 +2,10 @@ import * as React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { Button } from 'react-native'
 
-function HomeComponent() {
+function ProfileComponent() {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Text>Profile</Text>
     </View>
   )
 }
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default HomeComponent
+export default ProfileComponent
