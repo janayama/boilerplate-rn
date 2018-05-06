@@ -1,14 +1,14 @@
 import types from './types'
 
 const INITIAL_STATE = {
-  greeted: false,
+  test: false,
 }
-const homeReducer = (state: Object = INITIAL_STATE, action: Object): Object => {
+const profileReducer = (state: Object = INITIAL_STATE, action: Object): Object => {
   switch (action.type) {
     case types.GREETING: {
       return {
         ...state,
-        greeted: true,
+        test: true,
       }
     }
 
@@ -17,4 +17,4 @@ const homeReducer = (state: Object = INITIAL_STATE, action: Object): Object => {
   }
 }
 
-export default homeReducer
+export default profileReducer

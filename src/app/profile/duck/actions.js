@@ -1,9 +1,9 @@
 import types from './types.js'
 
-const greet = () => {
-  type: types.GREETING
+const profile = () => {
+  type: types.PROFILE
 }
 
 export default {
-  greet,
+  profile,
 }

@@ -1,5 +1,5 @@
-const GREETING = 'GREETING'
+const PROFILE = 'PROFILE'
 
 export default {
-  GREETING,
+  PROFILE,
 }

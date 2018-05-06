@@ -1,3 +1,3 @@
-import homeReducer from './reducers'
-export { default as homeTypes } from './types'
-export default homeReducer
+import profileReducer from './reducers'
+export { default as profileTypes } from './types'
+export default profileReducer
